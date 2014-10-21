@@ -14,3 +14,17 @@
 
 # Minus 5pts if your code has no comments
 # Minus 10pts if you only commit once to github
+
+from Tkinter import *
+root = Tk()
+
+drawpad = Canvas(root, width=800,height=800, background='white')
+drawpad.grid(row=0, column=1)
+#creating the house
+square = drawpad.create_rectangle(200,200,600,600, fill='red')
+#creating the roof
+line1 = drawpad.create_line(200,200,400,0)
+line2 = drawpad.create_line(400,0,600,200)
+
+
+root.mainloop()
