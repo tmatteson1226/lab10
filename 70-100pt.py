@@ -36,5 +36,6 @@ doorhandle = drawpad.create_oval(405,535,420,550, fill='yellow')
 line3 = drawpad.create_line(500,100,500,25)
 line4 = drawpad.create_line(500,25,550,25)
 line5 = drawpad.create_line(550,25,550,150)
-
+#grass
+grass = drawpad.create_rectangle(0,600,800,650, fill='green')
 root.mainloop()
