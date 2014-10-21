@@ -30,4 +30,11 @@ square2 = drawpad.create_rectangle(375,600,425,500, fill='brown')
 #making windows
 window1 = drawpad.create_rectangle(250,250,350,350, fill='white')
 window2 = drawpad.create_rectangle(450,250,550,350, fill='white')
+#creating doorhandle
+doorhandle = drawpad.create_oval(405,535,420,550, fill='yellow')
+#creating chimney
+line3 = drawpad.create_line(500,100,500,25)
+line4 = drawpad.create_line(500,25,550,25)
+line5 = drawpad.create_line(550,25,550,150)
+
 root.mainloop()
